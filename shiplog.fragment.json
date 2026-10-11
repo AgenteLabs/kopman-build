@@ -2,8 +2,25 @@
   "shipped": "1",
   "source": "repo/kopman-build",
   "org": "org/kopman-build",
-  "generated": "2026-10-11T10:54:21.611Z",
+  "generated": "2026-10-11T15:36:33.274Z",
   "entries": [
+    {
+      "id": "ship/kopman-build/16f85c36b249",
+      "repo": "repo/kopman-build",
+      "at": "2026-10-11T15:36:18Z",
+      "kind": "infra",
+      "title": "Homepage: replace hero photo with backyard deck project",
+      "by": [
+        "person/michael"
+      ],
+      "asserted": "2026-10-11",
+      "assertedBy": "agent/kopman-build-ci",
+      "visibility": "public",
+      "refs": {
+        "commit": "16f85c36b249043b3decad908e50724307ffd561"
+      },
+      "digest": "5a8dd86b4211ed4f8eab3f97ec3053c98b07515ffa20c807b291109d6d3dca08"
+    },
     {
       "id": "ship/kopman-build/17c74ce2e049",
       "repo": "repo/kopman-build",
