@@ -2,8 +2,25 @@
   "shipped": "1",
   "source": "repo/kopman-build",
   "org": "org/kopman-build",
-  "generated": "2026-10-12T03:20:33.658Z",
+  "generated": "2026-10-12T03:23:42.663Z",
   "entries": [
+    {
+      "id": "ship/kopman-build/1b4c237d8380",
+      "repo": "repo/kopman-build",
+      "at": "2026-10-12T03:23:30Z",
+      "kind": "infra",
+      "title": "Homepage contact: replace example global offices with the Toronto office",
+      "by": [
+        "person/michael"
+      ],
+      "asserted": "2026-10-12",
+      "assertedBy": "agent/kopman-build-ci",
+      "visibility": "public",
+      "refs": {
+        "commit": "1b4c237d83801c8b1c56fac1f4c1ac23d670a1bc"
+      },
+      "digest": "a00238ada70a8dc86eed0157791982c04c237c13496c7bca51476151b4378fe4"
+    },
     {
       "id": "ship/kopman-build/c0f4eeddb881",
       "repo": "repo/kopman-build",
