@@ -2,8 +2,25 @@
   "shipped": "1",
   "source": "repo/kopman-build",
   "org": "org/kopman-build",
-  "generated": "2026-10-12T03:23:42.663Z",
+  "generated": "2026-10-12T03:49:24.650Z",
   "entries": [
+    {
+      "id": "ship/kopman-build/f440d3390435",
+      "repo": "repo/kopman-build",
+      "at": "2026-10-12T03:49:11Z",
+      "kind": "other",
+      "title": "Homepage: new square portrait of Dustin Kopman, centred",
+      "by": [
+        "person/michael"
+      ],
+      "asserted": "2026-10-12",
+      "assertedBy": "agent/kopman-build-ci",
+      "visibility": "public",
+      "refs": {
+        "commit": "f440d33904353f79ef7de6839f99089b2084c560"
+      },
+      "digest": "9168de2500d6e960e9dc6b98c7322a11860f7a7dabb13f5862e832c19d9ccd82"
+    },
     {
       "id": "ship/kopman-build/1b4c237d8380",
       "repo": "repo/kopman-build",
