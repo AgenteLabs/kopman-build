@@ -662,7 +662,8 @@ section { padding: clamp(72px, 11vw, 140px) 0; scroll-margin-top: 80px; }
   background: color-mix(in oklch, var(--bg) 50%, var(--bg-2) 50%);
 }
 .team-card .portrait {
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 1 / 1;
+  align-self: center;
   border-radius: var(--r-sm);
   position: relative;
   overflow: hidden;
@@ -686,7 +687,7 @@ section { padding: clamp(72px, 11vw, 140px) 0; scroll-margin-top: 80px; }
 @media (max-width: 880px) {
   .about-grid { grid-template-columns: 1fr; }
   .team-card { grid-template-columns: 1fr; }
-  .team-card .portrait { aspect-ratio: 3 / 2; }
+  .team-card .portrait { aspect-ratio: 1 / 1; width: 100%; max-width: 480px; justify-self: center; }
 }
 
 /* ─── Services ──────────────────────────────────────────── */
@@ -1539,7 +1540,7 @@ section { padding: clamp(72px, 11vw, 140px) 0; scroll-margin-top: 80px; }
       <!-- Team -->
       <div class="team-card">
         <div class="portrait">
-          <img src="https://flashygroup.com/wp-content/uploads/2026/06/dustin.png" alt="Dustin Kopman" style="width:100%;height:100%;object-fit:cover;object-position:center top;" />
+          <img src="/dustin-kopman.jpg" alt="Dustin Kopman checking a door frame with a level" style="width:100%;height:100%;object-fit:cover;object-position:center center;" />
         </div>
         <div>
           <span class="eyebrow no-bar" style="margin-bottom:14px;">Founder</span>
