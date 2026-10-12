@@ -2,8 +2,25 @@
   "shipped": "1",
   "source": "repo/kopman-build",
   "org": "org/kopman-build",
-  "generated": "2026-10-12T03:13:22.613Z",
+  "generated": "2026-10-12T03:20:33.658Z",
   "entries": [
+    {
+      "id": "ship/kopman-build/c0f4eeddb881",
+      "repo": "repo/kopman-build",
+      "at": "2026-10-12T03:20:22Z",
+      "kind": "other",
+      "title": "Homepage contact: Email Us info.kopmanbuild@gmail.com, Contact Us 647-680-2031",
+      "by": [
+        "person/michael"
+      ],
+      "asserted": "2026-10-12",
+      "assertedBy": "agent/kopman-build-ci",
+      "visibility": "public",
+      "refs": {
+        "commit": "c0f4eeddb88173e614f0c8985099f3563f3f21cc"
+      },
+      "digest": "3b09fa3fc894931d0527c74b589f173013772c072a52007fbd416fd842ef100c"
+    },
     {
       "id": "ship/kopman-build/2ced8ab3a6e2",
       "repo": "repo/kopman-build",
