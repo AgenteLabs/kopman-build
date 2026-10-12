@@ -2,8 +2,25 @@
   "shipped": "1",
   "source": "repo/kopman-build",
   "org": "org/kopman-build",
-  "generated": "2026-10-12T03:55:38.135Z",
+  "generated": "2026-10-12T04:00:17.955Z",
   "entries": [
+    {
+      "id": "ship/kopman-build/d96f338f4b46",
+      "repo": "repo/kopman-build",
+      "at": "2026-10-12T04:00:04Z",
+      "kind": "other",
+      "title": "Homepage projects: Little Portugal residential deck (2024) replaces the example office fit-out",
+      "by": [
+        "person/michael"
+      ],
+      "asserted": "2026-10-12",
+      "assertedBy": "agent/kopman-build-ci",
+      "visibility": "public",
+      "refs": {
+        "commit": "d96f338f4b46e27150fabc5dd1cbf89755f75e00"
+      },
+      "digest": "526f379b63fab193d9b5eb9d9d8434ca42b97d3408e9f3e103983373d93158a7"
+    },
     {
       "id": "ship/kopman-build/f9f3dc1309a9",
       "repo": "repo/kopman-build",
