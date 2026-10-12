@@ -2,8 +2,25 @@
   "shipped": "1",
   "source": "repo/kopman-build",
   "org": "org/kopman-build",
-  "generated": "2026-10-12T04:18:54.025Z",
+  "generated": "2026-10-12T04:29:38.010Z",
   "entries": [
+    {
+      "id": "ship/kopman-build/e4c4bd837733",
+      "repo": "repo/kopman-build",
+      "at": "2026-10-12T04:29:25Z",
+      "kind": "feature",
+      "title": "Contact form: send inquiries to info.kopmanbuild@gmail.com via FormSubmit instead of the placeholder",
+      "by": [
+        "person/michael"
+      ],
+      "asserted": "2026-10-12",
+      "assertedBy": "agent/kopman-build-ci",
+      "visibility": "public",
+      "refs": {
+        "commit": "e4c4bd837733c5619ceb3353f47f0984a1628d06"
+      },
+      "digest": "f18d4749a84a7a01d2dac397334039762ab25ffeef954307b99a16d613843860"
+    },
     {
       "id": "ship/kopman-build/5c30e916df28",
       "repo": "repo/kopman-build",
