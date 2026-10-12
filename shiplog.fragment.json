@@ -2,8 +2,25 @@
   "shipped": "1",
   "source": "repo/kopman-build",
   "org": "org/kopman-build",
-  "generated": "2026-10-11T15:36:33.274Z",
+  "generated": "2026-10-12T03:13:22.613Z",
   "entries": [
+    {
+      "id": "ship/kopman-build/2ced8ab3a6e2",
+      "repo": "repo/kopman-build",
+      "at": "2026-10-12T03:13:09Z",
+      "kind": "other",
+      "title": "Homepage: one smaller consultation button at top right; remove hero button; stop hidden mobile menu peeking over the page",
+      "by": [
+        "person/michael"
+      ],
+      "asserted": "2026-10-12",
+      "assertedBy": "agent/kopman-build-ci",
+      "visibility": "public",
+      "refs": {
+        "commit": "2ced8ab3a6e2e1134319fd172d7581686444f5c7"
+      },
+      "digest": "d5dc51fd6e3c996b301e9b5cdd544ed6c3465a8d84060dbe1563a8d68df85edc"
+    },
     {
       "id": "ship/kopman-build/16f85c36b249",
       "repo": "repo/kopman-build",
