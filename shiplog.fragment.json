@@ -2,8 +2,25 @@
   "shipped": "1",
   "source": "repo/kopman-build",
   "org": "org/kopman-build",
-  "generated": "2026-10-12T04:09:50.791Z",
+  "generated": "2026-10-12T04:12:54.529Z",
   "entries": [
+    {
+      "id": "ship/kopman-build/5a75108004e2",
+      "repo": "repo/kopman-build",
+      "at": "2026-10-12T04:12:43Z",
+      "kind": "other",
+      "title": "Homepage projects: The Annex deck refinish (2023) replaces the example lakeside home",
+      "by": [
+        "person/michael"
+      ],
+      "asserted": "2026-10-12",
+      "assertedBy": "agent/kopman-build-ci",
+      "visibility": "public",
+      "refs": {
+        "commit": "5a75108004e227d15e54a327e388da9514af63c7"
+      },
+      "digest": "6f9098a28bf7965709143e455fc22ea16d2bbb65387458456aa6858846ec6718"
+    },
     {
       "id": "ship/kopman-build/23ad2ca0a5e3",
       "repo": "repo/kopman-build",
