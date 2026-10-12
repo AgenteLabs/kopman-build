@@ -2,8 +2,25 @@
   "shipped": "1",
   "source": "repo/kopman-build",
   "org": "org/kopman-build",
-  "generated": "2026-10-12T04:12:54.529Z",
+  "generated": "2026-10-12T04:18:54.025Z",
   "entries": [
+    {
+      "id": "ship/kopman-build/5c30e916df28",
+      "repo": "repo/kopman-build",
+      "at": "2026-10-12T04:18:40Z",
+      "kind": "other",
+      "title": "Homepage projects: Roncesvalles custom kitchen (2022) replaces the example hospitality build-out",
+      "by": [
+        "person/michael"
+      ],
+      "asserted": "2026-10-12",
+      "assertedBy": "agent/kopman-build-ci",
+      "visibility": "public",
+      "refs": {
+        "commit": "5c30e916df28c525980e5245a567d84b9d5e3585"
+      },
+      "digest": "af1ec06b1d67fdeae827f9dc7e70b2a30b88e357f618a02f2070dd38a62a08e4"
+    },
     {
       "id": "ship/kopman-build/5a75108004e2",
       "repo": "repo/kopman-build",
