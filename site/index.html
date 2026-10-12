@@ -1845,6 +1845,7 @@ section { padding: clamp(72px, 11vw, 140px) 0; scroll-margin-top: 80px; }
         </div>
 
         <form class="form" id="contactForm" novalidate>
+          <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0;" />
           <div class="row">
             <div class="field">
               <label for="f-name">Name<span class="req">*</span></label>
@@ -2092,18 +2093,39 @@ form.addEventListener('submit', async (e) => {
   }
   if (firstInvalid) { firstInvalid.focus(); return; }
 
-  // PLACEHOLDER SUBMIT — wire to a real endpoint (Formspree, Resend, your API, etc.)
-  // See the README in this file's directory for the integration TODO.
+  // Sends the inquiry to info.kopmanbuild@gmail.com through FormSubmit (formsubmit.co).
   status.textContent = 'Sending…';
   status.classList.add('show');
+  const submitBtn = form.querySelector('[type="submit"]');
+  if (submitBtn) submitBtn.disabled = true;
   try {
-    await new Promise(r => setTimeout(r, 700));   // simulate network
+    const sel = el => (el.options && el.selectedIndex >= 0) ? el.options[el.selectedIndex].text : el.value;
+    const res = await fetch('https://formsubmit.co/ajax/info.kopmanbuild@gmail.com', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify({
+        _subject: 'New website inquiry: ' + name.value.trim(),
+        _template: 'table',
+        _replyto: email.value.trim(),
+        _honey: form['_honey'] ? form['_honey'].value : '',
+        Name: name.value.trim(),
+        Email: email.value.trim(),
+        Phone: phone.value.trim() || '(not given)',
+        'Project type': sel(type),
+        Budget: sel(budget),
+        Timeline: sel(time),
+        Message: msg.value.trim()
+      })
+    });
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok || String(data.success) === 'false') throw new Error(data.message || 'Send failed');
     status.classList.add('ok');
-    status.textContent = 'Thank you — your inquiry has been received. We will respond within two business days. (Note: form is wired to a placeholder; connect your backend to start receiving submissions.)';
+    status.textContent = 'Thank you — your inquiry has been received. We will respond within two business days.';
     form.reset();
   } catch (err) {
-    status.classList.add('err');
-    status.textContent = 'Something went wrong. Please email us directly at info.kopmanbuild@gmail.com.';
+    status.textContent = 'Something went wrong. Please email us directly at info.kopmanbuild@gmail.com or call 647-680-2031.';
+  } finally {
+    if (submitBtn) submitBtn.disabled = false;
   }
 });
 
