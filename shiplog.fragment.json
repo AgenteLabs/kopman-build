@@ -2,8 +2,25 @@
   "shipped": "1",
   "source": "repo/kopman-build",
   "org": "org/kopman-build",
-  "generated": "2026-10-12T04:00:17.955Z",
+  "generated": "2026-10-12T04:05:46.509Z",
   "entries": [
+    {
+      "id": "ship/kopman-build/e2b3360596ce",
+      "repo": "repo/kopman-build",
+      "at": "2026-10-12T04:05:30Z",
+      "kind": "other",
+      "title": "Homepage projects: pergola, interlock and stone landscaping replaces the example townhouse restoration",
+      "by": [
+        "person/michael"
+      ],
+      "asserted": "2026-10-12",
+      "assertedBy": "agent/kopman-build-ci",
+      "visibility": "public",
+      "refs": {
+        "commit": "e2b3360596ce9711f5b25211a36921d6d9f25f77"
+      },
+      "digest": "39574567118379082ac5c7cc2ff391ab8e4f3c9217a2476b29e8375f129bae05"
+    },
     {
       "id": "ship/kopman-build/d96f338f4b46",
       "repo": "repo/kopman-build",
