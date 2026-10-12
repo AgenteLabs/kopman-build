@@ -2,8 +2,25 @@
   "shipped": "1",
   "source": "repo/kopman-build",
   "org": "org/kopman-build",
-  "generated": "2026-10-12T04:05:46.509Z",
+  "generated": "2026-10-12T04:09:50.791Z",
   "entries": [
+    {
+      "id": "ship/kopman-build/23ad2ca0a5e3",
+      "repo": "repo/kopman-build",
+      "at": "2026-10-12T04:09:37Z",
+      "kind": "other",
+      "title": "Homepage projects: Gravenhurst Muskoka room (2025) replaces the example mixed-use shell",
+      "by": [
+        "person/michael"
+      ],
+      "asserted": "2026-10-12",
+      "assertedBy": "agent/kopman-build-ci",
+      "visibility": "public",
+      "refs": {
+        "commit": "23ad2ca0a5e3ea322a21fbab6d072a88feba2b80"
+      },
+      "digest": "099452954f3dafbfb6259142a36ba913baa6f35eff14f9217c9870d7d3df421f"
+    },
     {
       "id": "ship/kopman-build/e2b3360596ce",
       "repo": "repo/kopman-build",
