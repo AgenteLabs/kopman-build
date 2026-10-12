@@ -2,8 +2,25 @@
   "shipped": "1",
   "source": "repo/kopman-build",
   "org": "org/kopman-build",
-  "generated": "2026-10-12T03:49:24.650Z",
+  "generated": "2026-10-12T03:55:38.135Z",
   "entries": [
+    {
+      "id": "ship/kopman-build/f9f3dc1309a9",
+      "repo": "repo/kopman-build",
+      "at": "2026-10-12T03:55:28Z",
+      "kind": "other",
+      "title": "Homepage projects: real photo for the Residential · Custom Home card",
+      "by": [
+        "person/michael"
+      ],
+      "asserted": "2026-10-12",
+      "assertedBy": "agent/kopman-build-ci",
+      "visibility": "public",
+      "refs": {
+        "commit": "f9f3dc1309a96214c5d4f8698fbf92a7a6a4d9d3"
+      },
+      "digest": "37cba5b2bd4d86ebb24a190a59f3bbf8f9489d6f69292983f06eea4f2fc97063"
+    },
     {
       "id": "ship/kopman-build/f440d3390435",
       "repo": "repo/kopman-build",
