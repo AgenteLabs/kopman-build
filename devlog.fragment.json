@@ -1,0 +1,120 @@
+{
+  "devlog": "1",
+  "source": "repo/kopman-build",
+  "org": "org/kopman-build",
+  "generated": "2026-10-14T11:28:54.680Z",
+  "entries": [
+    {
+      "id": "devlog/kopman-build/86451caab0cb",
+      "at": "2026-10-14T18:28:39+07:00",
+      "summary": "Merge pull request #3 from FlashyLabs/claude/ceo-estate-dashboard-gmtgl8",
+      "commitSha": "86451caab0cba5a198ecb8aa7fa9a56076cff263",
+      "ref": "https://github.com/FlashyLabs/kopman-build/commit/86451caab0cba5a198ecb8aa7fa9a56076cff263"
+    },
+    {
+      "id": "devlog/kopman-build/e4c4bd837733",
+      "at": "2026-10-12T04:29:25Z",
+      "summary": "Contact form: send inquiries to info.kopmanbuild@gmail.com via FormSubmit instead of the placeholder",
+      "commitSha": "e4c4bd837733c5619ceb3353f47f0984a1628d06",
+      "ref": "https://github.com/FlashyLabs/kopman-build/commit/e4c4bd837733c5619ceb3353f47f0984a1628d06"
+    },
+    {
+      "id": "devlog/kopman-build/5c30e916df28",
+      "at": "2026-10-12T04:18:40Z",
+      "summary": "Homepage projects: Roncesvalles custom kitchen (2022) replaces the example hospitality build-out",
+      "commitSha": "5c30e916df28c525980e5245a567d84b9d5e3585",
+      "ref": "https://github.com/FlashyLabs/kopman-build/commit/5c30e916df28c525980e5245a567d84b9d5e3585"
+    },
+    {
+      "id": "devlog/kopman-build/5a75108004e2",
+      "at": "2026-10-12T04:12:43Z",
+      "summary": "Homepage projects: The Annex deck refinish (2023) replaces the example lakeside home",
+      "commitSha": "5a75108004e227d15e54a327e388da9514af63c7",
+      "ref": "https://github.com/FlashyLabs/kopman-build/commit/5a75108004e227d15e54a327e388da9514af63c7"
+    },
+    {
+      "id": "devlog/kopman-build/23ad2ca0a5e3",
+      "at": "2026-10-12T04:09:37Z",
+      "summary": "Homepage projects: Gravenhurst Muskoka room (2025) replaces the example mixed-use shell",
+      "commitSha": "23ad2ca0a5e3ea322a21fbab6d072a88feba2b80",
+      "ref": "https://github.com/FlashyLabs/kopman-build/commit/23ad2ca0a5e3ea322a21fbab6d072a88feba2b80"
+    },
+    {
+      "id": "devlog/kopman-build/e2b3360596ce",
+      "at": "2026-10-12T04:05:30Z",
+      "summary": "Homepage projects: pergola, interlock and stone landscaping replaces the example townhouse restoration",
+      "commitSha": "e2b3360596ce9711f5b25211a36921d6d9f25f77",
+      "ref": "https://github.com/FlashyLabs/kopman-build/commit/e2b3360596ce9711f5b25211a36921d6d9f25f77"
+    },
+    {
+      "id": "devlog/kopman-build/d96f338f4b46",
+      "at": "2026-10-12T04:00:04Z",
+      "summary": "Homepage projects: Little Portugal residential deck (2024) replaces the example office fit-out",
+      "commitSha": "d96f338f4b46e27150fabc5dd1cbf89755f75e00",
+      "ref": "https://github.com/FlashyLabs/kopman-build/commit/d96f338f4b46e27150fabc5dd1cbf89755f75e00"
+    },
+    {
+      "id": "devlog/kopman-build/f9f3dc1309a9",
+      "at": "2026-10-12T03:55:28Z",
+      "summary": "Homepage projects: real photo for the Residential · Custom Home card",
+      "commitSha": "f9f3dc1309a96214c5d4f8698fbf92a7a6a4d9d3",
+      "ref": "https://github.com/FlashyLabs/kopman-build/commit/f9f3dc1309a96214c5d4f8698fbf92a7a6a4d9d3"
+    },
+    {
+      "id": "devlog/kopman-build/f440d3390435",
+      "at": "2026-10-12T03:49:11Z",
+      "summary": "Homepage: new square portrait of Dustin Kopman, centred",
+      "commitSha": "f440d33904353f79ef7de6839f99089b2084c560",
+      "ref": "https://github.com/FlashyLabs/kopman-build/commit/f440d33904353f79ef7de6839f99089b2084c560"
+    },
+    {
+      "id": "devlog/kopman-build/1b4c237d8380",
+      "at": "2026-10-12T03:23:30Z",
+      "summary": "Homepage contact: replace example global offices with the Toronto office",
+      "commitSha": "1b4c237d83801c8b1c56fac1f4c1ac23d670a1bc",
+      "ref": "https://github.com/FlashyLabs/kopman-build/commit/1b4c237d83801c8b1c56fac1f4c1ac23d670a1bc"
+    },
+    {
+      "id": "devlog/kopman-build/c0f4eeddb881",
+      "at": "2026-10-12T03:20:22Z",
+      "summary": "Homepage contact: Email Us info.kopmanbuild@gmail.com, Contact Us 647-680-2031",
+      "commitSha": "c0f4eeddb88173e614f0c8985099f3563f3f21cc",
+      "ref": "https://github.com/FlashyLabs/kopman-build/commit/c0f4eeddb88173e614f0c8985099f3563f3f21cc"
+    },
+    {
+      "id": "devlog/kopman-build/2ced8ab3a6e2",
+      "at": "2026-10-12T03:13:09Z",
+      "summary": "Homepage: one smaller consultation button at top right; remove hero button; stop hidden mobile menu peeking over the page",
+      "commitSha": "2ced8ab3a6e2e1134319fd172d7581686444f5c7",
+      "ref": "https://github.com/FlashyLabs/kopman-build/commit/2ced8ab3a6e2e1134319fd172d7581686444f5c7"
+    },
+    {
+      "id": "devlog/kopman-build/16f85c36b249",
+      "at": "2026-10-11T15:36:18Z",
+      "summary": "Homepage: replace hero photo with backyard deck project",
+      "commitSha": "16f85c36b249043b3decad908e50724307ffd561",
+      "ref": "https://github.com/FlashyLabs/kopman-build/commit/16f85c36b249043b3decad908e50724307ffd561"
+    },
+    {
+      "id": "devlog/kopman-build/17c74ce2e049",
+      "at": "2026-10-10T05:05:39Z",
+      "summary": "Emitters retry on a moved branch; the directory fragment is the emitter's output",
+      "commitSha": "17c74ce2e049d6e6a2d3201da3c18518092b6e4e",
+      "ref": "https://github.com/FlashyLabs/kopman-build/commit/17c74ce2e049d6e6a2d3201da3c18518092b6e4e"
+    },
+    {
+      "id": "devlog/kopman-build/9424f6d5663b",
+      "at": "2026-09-12T11:17:20-04:00",
+      "summary": "Merge pull request #2 from FlashyLabs/claude/code-estate-audit-wfm6ha",
+      "commitSha": "9424f6d5663b2ebf0757642767e82fdcd8f13a44",
+      "ref": "https://github.com/FlashyLabs/kopman-build/commit/9424f6d5663b2ebf0757642767e82fdcd8f13a44"
+    },
+    {
+      "id": "devlog/kopman-build/71ca552c2654",
+      "at": "2026-05-22T17:45:38+02:00",
+      "summary": "Add index.html at root for GitHub Pages",
+      "commitSha": "71ca552c2654ad44ed681829d35bec77d95ed8ec",
+      "ref": "https://github.com/FlashyLabs/kopman-build/commit/71ca552c2654ad44ed681829d35bec77d95ed8ec"
+    }
+  ]
+}

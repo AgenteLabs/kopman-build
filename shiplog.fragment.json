@@ -2,8 +2,27 @@
   "shipped": "1",
   "source": "repo/kopman-build",
   "org": "org/kopman-build",
-  "generated": "2026-10-14T09:36:15.762Z",
+  "generated": "2026-10-14T11:28:54.677Z",
   "entries": [
+    {
+      "id": "ship/kopman-build/86451caab0cb",
+      "repo": "repo/kopman-build",
+      "at": "2026-10-14T18:28:39+07:00",
+      "kind": "feature",
+      "title": "Merge pull request #3 from FlashyLabs/claude/ceo-estate-dashboard-gmtgl8",
+      "by": [
+        "person/michael"
+      ],
+      "asserted": "2026-10-14",
+      "assertedBy": "agent/kopman-build-ci",
+      "visibility": "public",
+      "detail": "vendor: re-vendor drifted emitter copies from canon",
+      "refs": {
+        "commit": "86451caab0cba5a198ecb8aa7fa9a56076cff263",
+        "pr": "https://github.com/FlashyLabs/kopman-build/pull/3"
+      },
+      "digest": "53e448a46decf91c1a7f9207724db8f2ed2da1d9ca5aca0669dd682b97ef1821"
+    },
     {
       "id": "ship/kopman-build/e4c4bd837733",
       "repo": "repo/kopman-build",
