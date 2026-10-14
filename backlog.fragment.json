@@ -1,8 +1,9 @@
 {
+  "intent": "1",
   "backlog": "1",
   "source": "repo/kopman-build",
   "org": "org/kopman-build",
-  "generated": "2026-10-14T09:42:40.847Z",
+  "generated": "2026-10-14T11:28:48.032Z",
   "items": [
     {
       "id": "backlog/kopman-build/declare-the-record-emitter",
